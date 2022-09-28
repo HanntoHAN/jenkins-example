@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh "${WORKSPACE}/jenkins-example/test.sh"
+                sh "${WORKSPACE}/builder/jenkins-example/test.sh"
             }
         }
     }
